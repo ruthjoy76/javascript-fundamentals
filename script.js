@@ -1,11 +1,20 @@
+let grade = prompt("What is your grade?") ;          switch (true) {
+  case grade >= 90:
+    console.log("A");
+    break;
 
-let text = "Apple, Banana, Kiwi";
-let part = text.slice(-12, -6);
+  case grade >= 80:
+    console.log("B");
+    break;
 
-console.log(part);
+  case grade >= 70:
+    console.log("C");
+    break;
 
-let str = "Apple, Banana, Kiwi";
-let fruit = str.substring(7, 13);
+  case grade >= 60:
+    console.log("D");
+    break;
 
-let newText = "Please visit Microsoft";
-let updatedText = newText = newText.replace("Microsoft, "Kodeo");
+  default:
+    console.log("F");
+}
